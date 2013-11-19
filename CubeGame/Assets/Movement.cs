@@ -27,7 +27,8 @@ public class Movement : MonoBehaviour {
 		}
 		if (vertical >= -6) {
 			vertical = gravity (vertical);
-		} 
+		}
+
 		/*Contact Contact;
 		Contact = GetComponent (Contact);
 		int i = Contact.num;
